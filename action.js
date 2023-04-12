@@ -50,7 +50,7 @@ async function run() {
                 })
         }
 
-        if (!targets) {
+        if (!!targets) {
             targets
                 .split(',')
                 .map((t) => t.trim())
